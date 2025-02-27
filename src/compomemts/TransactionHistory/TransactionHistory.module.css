@@ -1,0 +1,21 @@
+.table {
+    margin: 20px auto;
+  width: 60%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+th {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d3d3d3; 
+}
